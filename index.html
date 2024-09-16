@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/bootstrap-logo.svg" alt="" width="30" height="24">
+            </a>
+            <a class="navbar-brand text-white" href="#">Thapa Technical</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero-section">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <video src="images/hero.mp4" loop autoplay muted class="d-block mx-lg-auto img-fluid rounded-4"
+                        width="700" height="500"></video>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3 text-white">We Collect High Quality Leads</h1>
+                    <p class="lead text-white">Quickly design and customize responsive mobile-first sites with
+                        Bootstrap, the
+                        world’s
+                        most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                        system.</p>
+                    <div class="d-grid gap-1 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-5 py-2 me-md-2 mt-4"
+                            data-bs-toggle="tooltip" data-bs-title="Get Best Services">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- adding  shap in background -->
+        <div class="custom-shape-divider-bottom-1726069013">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Our services section -->
+    <section class="our-services">
+        <!-- Heading -->
+         <div class="heading">        <h2 class="text-center mt-5">What We Will Do For <br>Your Business</h2>
+        <hr class="w-25 mx-auto">
+    </div>
+
+        <!-- Pictures -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card box-shadow-lg">
+                        <div class="card-img-wrapper">
+                            <img src="images/link.gif" class="card-img-top" alt="Link Building">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Link Building</h5>
+                            <p class="card-text">Hunky dory barney fanny around up the duff no biggie loo cup of tea
+                                jolly good ruddy say arse!</p>
+                            <a class="icon-link" href="#">
+                                <i class="bi bi-arrow-right mt-5"></i> <!-- Use Bootstrap Icons class directly -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow p-3 mb-5 rounde">
+                        <div class="card-img-wrapper">
+                            <img src="images/seo.gif" class="card-img-top" alt="On Page SEO">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">On Page SEO</h5>
+                            <p class="card-text">Hunky dory barney fanny around up the duff no biggie loo cup of tea
+                                jolly good ruddy say arse</p>
+                            <a class="icon-link" href="#">
+                                <i class="bi bi-arrow-right mt-5"></i> <!-- Use Bootstrap Icons class directly -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card box-shadow-lg">
+                        <div class="card-img-wrapper">
+                            <img src="images/speaker.gif" class="card-img-top" alt="Content Marketing">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Content Marketing</h5>
+                            <p class="card-text">Hunky dory barney fanny around up the duff no biggie loo cup of tea
+                                jolly good ruddy say arse!.</p>
+                            <a class="icon-link" href="#">
+                                <i class="bi bi-arrow-right mt-5"></i> <!-- Use Bootstrap Icons class directly -->
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our services section end -->
+
+
+    <!-- Digital product my fvrt -->
+    <section class="hero-section product-section">
+        <div class="container text-center">
+            <div class="row justify-content-evenly mt-4">
+                <div class="col-4 mt-4">
+                    <figure>
+                        <img class="product-img" src="images/phone.gif" alt="">
+                    </figure>
+                </div>
+                <div class="col">
+                    <div class="product-content">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Steps to Build a <br>
+                            Successful Digital Product</h1>
+                        <p class="text-white paraghraph">Quickly design and customize responsive mobile-first sites with
+                            Bootstrap, the
+                            world’s
+                            most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
+                            grid most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive
+                            grid
+                            system.</p>
+                            <div class="d-grid gap-1 d-md-flex justify-content-md-start">
+                                <button type="button" class="btn btn-primary btn-lg px-5 py-2 me-md-2 mt-4"
+                                    data-bs-toggle="tooltip" data-bs-title="Get Best Services">Contact Us</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- digital product secton end -->
+
+
+    <!-- New Customer section-->
+    <section class="new-customer">
+        <div class="heading">
+            <h2 class="text-center mt-5">Generating New Customers Via <br> Online Mode</h2>
+            <hr class="w-25 mx-auto">
+        </div>
+
+
+        <!-- cutomer picture section -->
+        <div class="container text-center">
+            <div class="row row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/phone.gif" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Social Media Advertising</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/Mobile Marketing 3D Animated Icon.gif" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Influencer Marketing</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container text-center">
+            <div class="row row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/Mobile Marketing 3D Animated Icon.gif" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Influencer Marketing</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/phone.gif" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Social Media Advertising</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
+                                            ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- end of cutomer picture section -->
+
+
+    <!-- clint say about us -->
+    <section class="about-us hero-section">
+        <div class="heading-about">
+            <h2 class="text-center text-white">What Clients Say <br> About Us</h2>
+            <hr class="w-25 mx-auto text-white">
+        </div>
+        <!-- Carousel -->
+        <div id="carouselExample" class="carousel slide w-75 mx-auto py-2" data-bs-ride="carousel">
+            <div class="carousel-indicators mt-5">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container text-center">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card about" >
+                                    <img src="images/about-us.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-5.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-3.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-center">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-4.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-5.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-6.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-center">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-7.avif" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-8.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card about">
+                                    <img src="images/about-4.jpg" class="card-img-top" alt="Client Feedback Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Card title</h5>
+                                        <p class="card-text ">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- end of say about section -->
+
+
+    <!-- start of tips and trick section -->
+    <section class="tip-trick">
+        <div class="heading-about" style="padding-top: 4%; padding-bottom: 3%;">
+            <h2 class="text-center">Tips and Tricks From <br> Our Exparts</h2>
+            <hr class="w-25 mx-auto">
+        </div>
+
+        <div class="container text-center ">
+            <div class="row card-tips">
+                <div class="col">
+                    <div class="card border" style="width: 18rem; height:460px;">
+                        <img src="images/web.jpg" class="card-img-top" alt="..." style="height: 45%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Web Development</h5>
+                            <p class="card-text text-start">Some quick example text to build on the card title and make
+                                up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left:-60% ; margin-top: 10%;">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border" style="width: 18rem; height:460px;">
+                        <img src="images/freelance_set_4.jpg" class="card-img-top" alt="..." style="height: 45%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Freelancing</h5>
+                            <p class="card-text text-start">Some quick example text to build on the card title and make
+                                up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left:-60% ; margin-top: 10%;">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border" style="width: 18rem; height:460px;">
+                        <img src="images/graphic.jpg" class="card-img-top" alt="..." style="height: 45%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Graphic Designer</h5>
+                            <p class="card-text text-start">Some quick example text to build on the card title and make
+                                up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left:-60% ; margin-top: 10%;">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border" style="width: 18rem; height:460px ">
+                        <img src="images/word-press.jpg" class="card-img-top" alt="..." style="height: 45%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Wordpress Developer</h5>
+                            <p class="card-text text-start">Some quick example text to build on the card title and make
+                                up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary" style="margin-left:-60% ; margin-top: 10%;">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end of tips and tricks section -->
+
+    <!-- contact us section start -->
+    <section class="contact-us hero-section">
+        
+
+        <!-- form -->
+        <div class="container form-foot">
+            <div class="heading-about  contact-heading">
+                <h2 class="text-center text-white">Contact Us</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+            <form class="row g-3 text-white w-75 mx-auto p-2">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your massage"
+                        rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- adding shape -->
+        <div class="custom-shape-divider-top-1726167964">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="container text-center detail-to-connect">
+            <div class="row">
+                <div class="col">
+                    <img src="images/Call Phone 3D Animated Icon.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/Email 3D Animated Icon.gif" class="card-img-top" alt="..."
+       >
+                    <div class="card-body">
+                        <p class="card-text text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/map.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="main">
+            <div class="container empty"></div>
+            <div class="container text-center text-white" style="background-color: #1f2121; padding-top: 7%;">
+                <div class="row last-work">
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Get to Know Us</p>
+                            </li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Devices</a></li>
+                            <li><a href="#">Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Get to Know Us</p>
+                            </li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Devices</a></li>
+                            <li><a href="#">Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Get to Know Us</p>
+                            </li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Devices</a></li>
+                            <li><a href="#">Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 suscribe">
+                        <form class="d-flex flex-column align-items-center">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="specificSizeInputName" placeholder="Name">
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center text-white copyright">
+            <hr>
+            <div>
+                &copy; 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+    </script>
+</body>
+
+</html>

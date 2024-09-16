@@ -1,0 +1,140 @@
+@media only screen and (min-width: 200px) and (max-width: 567px) {
+    .hero-section {
+        height: 50rem;
+        /* width: 420px; */
+    }
+
+    .product-img {
+        width: 230px;
+        margin-top: 5%;
+        /* padding-right: 90%; */
+        align-items: center;
+    }
+    .product-content{
+        margin-top: 10%;
+        margin-left: 7%;
+        text-align: left;
+        width: 20rem;
+    }
+    /* .btn-primary{
+        width: 100px;
+
+    } */
+
+    .about-us{
+        margin-top: 7%;
+        padding-bottom: 10%;
+        height: 120%;
+    }
+    .card-tips{
+        padding-left: 40px;
+        margin-top:40px ;
+    }
+    
+    .heading-about h2{
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .contact-us{
+        height: 750px;
+        /* width: 420px; */
+    }
+    .contact-heading{
+        padding-top: 80px;
+        padding-bottom: 0px; 
+    }
+    .detail-to-connect{
+        padding-top: -20px;
+    }
+    .detail-to-connect img{
+        width: 40px; height: 40px;
+    }
+    .card-body p{
+        font-size: 12px;
+    }
+    .empty{
+        height: 50px;
+    }
+    .form-foot{
+        padding-top: 30px;
+    }
+     .main{
+        height: 700px;
+        /* width: 420px; */
+     }
+     .heading h2{
+     font-size: 20px;
+     line-height: 27px;
+     }
+     /* .copyright{
+        width: 420px;
+     } */
+    }
+@media only screen and (min-width: 567px) and (max-width: 992px) {
+    .hero-section {
+        height: 45rem;
+    }
+    .product-section{
+        height: 50rem;
+    }
+    .product-img {
+        width: 300px;
+        margin-top: 5%;
+        /* padding-right: 20%; */
+    }
+    .product-content{
+        margin-top: 7%;
+        margin-left: 10%;
+        text-align: left;
+        width: 35rem;
+        padding-bottom: 30%;
+    }
+    .about{
+        width: 160px;
+        margin-left: 20px;
+        padding: 0px;
+        background-color: var(--secondary-color); /* Default background color */
+        height: 400px;
+        color: white; /* Default text color */
+        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    }
+
+    .star{
+        margin-bottom: 40px;
+        color: #f152bf;
+    }
+    .contact-us{
+        height: 750px;
+    }
+
+    .contact-heading{
+        padding-top: 80px;
+        padding-bottom: 0px; 
+    }
+    .detail-to-connect{
+        padding-top: -20px;
+    }
+    .detail-to-connect img{
+        width: 40px; height: 40px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    .product-section{
+        height: 50rem;
+    }
+    .product-img {
+        width: 300px;
+        margin-top: 5%;
+        /* padding-right: 20%; */
+    }
+    .product-content{
+        margin-top: 7%;
+        margin-left: 10%;
+        text-align: left;
+        width: 35rem;
+        padding-bottom: 30%;
+    }
+}
